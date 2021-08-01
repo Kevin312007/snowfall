@@ -1,5 +1,5 @@
  class Snow{
-     constructer(x,y){
+     constructor(x,y){
          this.flake=Bodies.circle(x,y,5)
          world.add(world,this.flake)
      }
