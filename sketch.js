@@ -30,4 +30,5 @@ function draw() {
   background(snowImage); 
   for(var i=0;i<=snowFall.length;i++){snowFall[i].display()}
   drawSprites();
+  var i=0;i<snowFall.length;i++
 }
